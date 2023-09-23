@@ -13,6 +13,7 @@
 		D0B21E672ABE6E57000AC382 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B21E662ABE6E57000AC382 /* Preview Assets.xcassets */; };
 		D0B21E6F2ABE82B5000AC382 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B21E6E2ABE82B5000AC382 /* LocationManager.swift */; };
 		D0B21E722ABE8571000AC382 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B21E712ABE8571000AC382 /* WelcomeView.swift */; };
+		D0B21E742ABE8980000AC382 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B21E732ABE8980000AC382 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D0B21E662ABE6E57000AC382 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0B21E6E2ABE82B5000AC382 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		D0B21E712ABE8571000AC382 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		D0B21E732ABE8980000AC382 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				D0B21E612ABE6E55000AC382 /* ContentView.swift */,
 				D0B21E712ABE8571000AC382 /* WelcomeView.swift */,
+				D0B21E732ABE8980000AC382 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				D0B21E622ABE6E55000AC382 /* ContentView.swift in Sources */,
 				D0B21E602ABE6E55000AC382 /* WeatherAppApp.swift in Sources */,
 				D0B21E6F2ABE82B5000AC382 /* LocationManager.swift in Sources */,
+				D0B21E742ABE8980000AC382 /* LoadingView.swift in Sources */,
 				D0B21E722ABE8571000AC382 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
